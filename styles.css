@@ -1,0 +1,386 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.95
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#container_header {
+  position: fixed;
+  height: 130px;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  font-size: 20px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: auto 0;
+  margin: auto 0 auto 0;
+  flex-shrink: 1;
+}
+
+a {
+  border: 1px solid grey;
+  font-family: Helvetica;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.home {
+  margin-right: 8px;
+}
+.menu {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.contact {
+  margin-left: 8px;
+}
+
+
+.header_links {
+  float: left;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  /*margin: 0 -85px -65px 0;*/
+  flex-shrink: 2;
+}
+
+.links {
+  text-decoration: none;
+  /*min-width: 10%;
+  max-width: 35%;*/
+  padding: 4px 10px;
+  max-height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-shrink: 2;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+
+
+
+#background {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+
+.mission_container {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  top: 190px;
+  text-align: center;
+  padding-bottom: 10%;
+  font-size: 40px;
+  margin-bottom: 300px;
+}
+
+.mission_container .mission {
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+#mission_text {
+  font-size: 1.3em;
+}
+
+#description {
+  font-size: 0.65em;
+}
+
+.container {
+  width: 90%;
+  display: block;
+  margin: 180px auto 120px auto;
+  text-align: center;
+  border: 3px solid #303030;
+  overflow: hidden;
+  font-size: 45px;
+}
+
+
+#meals {
+  font-size: 1.3em;
+}
+
+#cooking {
+  font-size: 0.5em;
+}
+
+
+.container .pics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.meal_name {
+  font-size: 0.7em;
+}
+
+.meal_pics {
+  opacity: 1;
+  margin: 0 auto;
+  padding: 30px 30px 0px 30px;
+}
+
+
+.container_location {
+  width: 90%;
+  display: block;
+  margin: 60px auto 120px auto;
+  text-align: center;
+  border: 3px solid #303030;
+  overflow: hidden;
+  font-size: 50px;
+}
+
+.container_2 .locations {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+
+#location {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*
+#location {
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 1750px;
+  left: 40%;
+  z-index: 5;
+}
+*/
+
+.container_2 .address {
+  background-color: black;
+  z-index: 1;
+  border: 1px solid #303030;
+  position: absolute;
+  top: 22%;
+  left: 30%;
+  width: 40%;
+  height: 50%;
+  text-align: center;
+  font-size: 0.35em;
+  text-align: center;
+}
+
+
+.container_2 {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 0px auto 80px auto;
+  text-align: center;
+}
+
+.container_3 {
+  width: 100%;
+  background-color: #202020;
+  min-height: 120px;
+  display: block;
+  padding: 10px auto 10px auto;
+  text-align: center;
+  z-index: 4;
+}
+
+.end {
+  background-color: #202020;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 7px;
+  font-size: 26px;
+  width: 26px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa-facebook:hover {
+  background: #000080;
+  color: grey;
+  font-size: 26px;
+}
+
+
+.fa-whatsapp {
+  background: #25D366;
+  color: white;
+  padding: 6px;
+  font-size: 26px;
+  width: 26px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa-whatsapp:hover {
+  background: #2e8b57;
+  color: grey;
+  font-size: 26px;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  #logo {
+    width: 200px;
+    height: auto;
+    margin-top: 18px;
+    margin-left: -15px;
+    }
+  
+  a {
+    border: 0.5px solid grey;
+    font-family: Helvetica;
+    font-size: 0.605em;
+    font-weight: bold;
+    }
+    
+    .header_links {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-bottom: -50px;
+  }
+    
+    .links {
+    text-decoration: none;
+    padding: 4px 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-shrink: 2;
+  }
+  
+  
+  .home {
+  margin-right: 3px;
+  }
+  .menu {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .contact {
+    margin-left: 3px;
+    margin-right: 6px;
+  }
+
+  #container_header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+  }
+  
+  #background {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0.8;
+  }
+  
+  
+  .mission_container {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+#description {
+  letter-spacing: 0.025em;
+  font-size: 0.6em;
+  }
+  
+  .container {
+    width: 90%;
+    display: block;
+    margin: -200px auto 120px auto;
+    text-align: center;
+    border: 2px solid #303030;
+    overflow: hidden;
+    font-size: 20px;
+  }
+  
+  .meal_pics {
+    width: 350px;
+    height: auto;
+  }
+  
+  
+.container_location {
+    width: 90%;
+    display: block;
+    margin: 60px auto 120px auto;
+    text-align: center;
+    border: 3px solid #303030;
+    overflow: hidden;
+    font-size: 30px;
+  }
+  
+  .container_2 .address {
+    padding: 10px 10px;
+  }
+
+}

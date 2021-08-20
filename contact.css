@@ -1,0 +1,197 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.95
+}
+
+
+#container_header {
+  position: fixed;
+  height: 130px;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  font-size: 20px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: auto 0;
+  margin: auto 0 auto 0;
+  flex-shrink: 1;
+}
+
+a {
+  border: 1px solid grey;
+  font-family: Helvetica;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.home {
+  margin-right: 8px;
+}
+.menu {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.contact {
+  margin-left: 8px;
+}
+
+
+.header_links {
+  float: left;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  /*margin: 0 -85px -65px 0;*/
+  flex-shrink: 2;
+}
+
+.links {
+  text-decoration: none;
+  /*min-width: 10%;
+  max-width: 35%;*/
+  padding: 4px 10px;
+  max-height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-shrink: 2;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+.container_3 {
+  width: 97%;
+  min-height: 120px;
+  position: absolute;
+  top: 150px;
+  display: block;
+  padding: 10px auto 10px auto;
+  text-align: center;
+  z-index: 4;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 7px;
+  font-size: 26px;
+  width: 26px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa-facebook:hover {
+  background: #000080;
+  color: grey;
+  font-size: 26px;
+}
+
+
+.fa-whatsapp {
+  background: #25D366;
+  color: white;
+  padding: 6px;
+  font-size: 26px;
+  width: 26px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa-whatsapp:hover {
+  background: #2e8b57;
+  color: grey;
+  font-size: 26px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+  #logo {
+    width: 200px;
+    height: auto;
+    margin-top: 18px;
+    margin-left: -15px;
+    }
+
+  a {
+    border: 0.5px solid grey;
+    font-family: Helvetica;
+    font-size: 0.605em;
+    font-weight: bold;
+    }
+
+  .header_links {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-bottom: -100px;
+  }
+
+    .links {
+    text-decoration: none;
+    padding: 4px 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-shrink: 2;
+  }
+
+
+  .home {
+  margin-right: 3px;
+  }
+  .menu {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .contact {
+    margin-left: 3px;
+    margin-right: 6px;
+  }
+
+  #container_header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+  }
