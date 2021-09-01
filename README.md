@@ -2,6 +2,7 @@
 Khao Jee is a responsive web application for a virtual restaurant I co-founded to share with potential customers our story, menu and contact details.
 
 Check out the website: https://khaojee.restaurant/
+
 ![khao_jee](https://user-images.githubusercontent.com/64204835/131756228-aac2e43b-1122-4702-856c-861292d92d38.jpg)
 
 
@@ -11,7 +12,7 @@ Check out the website: https://khaojee.restaurant/
 
 
 # Development 
-#### HTML, CSS, Bootstrap, Adobe Photoshop, Adobe Illustrator
+#### HTML/CSS, Bootstrap, Adobe Photoshop, Adobe Illustrator
 - Created, designed, and coordinated various web pages with appropriate links and multimedia elements using HTML, CSS, and Bootstrap.
 - Used media queries along with Flexbox and Grid Layout to create a responsive design for each webpage.
 - Refined self-captured food photographs on Photoshop by removing blemishes and adding vibrancy, to add to the website for advertising appeals.
